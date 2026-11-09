@@ -1,0 +1,10 @@
+[package]
+name = "simple-torrent"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.37.0", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+librqbit = "9.1.0"
+rfd = "0.17.2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync", "time"] }

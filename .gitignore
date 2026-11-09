@@ -1,0 +1,9 @@
+/target/
+/downloads/
+/.omx/
+/dist/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
