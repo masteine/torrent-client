@@ -54,14 +54,3 @@ cargo run --release --locked --bin simple-torrent -- 'magnet:?xt=urn:btih:...' .
 ```
 
 Другий аргумент — папка для завантаження. Якщо його немає, файли потрапляють у `./downloads`. Для зупинки натисніть `Ctrl+C`.
-
-## Наступні релізи
-
-Оновіть версію в `Cargo.toml`, виконайте `cargo check` для оновлення `Cargo.lock` і опублікуйте зміни в `main`. Потім створіть тег із тією самою версією та відправте його:
-
-```sh
-git tag v0.2.0
-git push origin v0.2.0
-```
-
-GitHub Actions збере віконний застосунок для macOS (Apple Silicon та Intel), Linux x86_64 і Windows x86_64 та додасть архіви до нового Release.
